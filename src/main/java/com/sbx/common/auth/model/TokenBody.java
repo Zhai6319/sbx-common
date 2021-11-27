@@ -1,5 +1,6 @@
 package com.sbx.common.auth.model;
 
+import com.sbx.core.model.exception.SecurityException;
 import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
 
