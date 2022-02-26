@@ -31,7 +31,9 @@ public class LaunchServiceImpl implements LauncherService {
         props.setProperty("spring.cloud.nacos.discovery.username","nacos");
         props.setProperty("spring.cloud.nacos.discovery.password",LaunchConstant.nacosPassword(profile));
         props.setProperty("spring.cloud.nacos.discovery.namespace",LaunchConstant.namespace(profile));
-        props.setProperty("dubbo.registry.address","spring-cloud://"+LaunchConstant.nacosAddr(profile));
+        String dubboRegistryAddress = String.format("nacos://%s?namespace=%s",LaunchConstant.nacosAddr(profile),LaunchConstant.namespace(profile));
+
+        props.setProperty("dubbo.registry.address",dubboRegistryAddress);
 
 
 //        if (profile.equals("dev")) {
