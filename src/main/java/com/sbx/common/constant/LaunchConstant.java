@@ -25,7 +25,7 @@ public interface LaunchConstant {
     String NAMESPACE_PROD = "a0a5210f-5e4d-4039-8341-09c93ad02954";
 
 
-    String NACOS_PASSWORD_DEVTEST = "zhainacos";
+    String NACOS_PASSWORD_DEVTEST = "zhai6319.._";
 
     String NACOS_PASSWORD_PROD = "8ce0f9714ede537d";
 
