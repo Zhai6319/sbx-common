@@ -13,11 +13,11 @@ public interface LaunchConstant {
     /**
      * nacos注册地址
      */
-    String NACOS_ADDRESS_PROD = "49.235.125.232:8848";
+    String NACOS_ADDRESS_PROD = "106.54.216.8:8848";
 
-    String NACOS_ADDRESS_TEST = "49.235.125.232:8848";
+    String NACOS_ADDRESS_TEST = "106.54.216.8:8848";
 
-    String NACOS_ADDRESS_DEV = "49.235.125.232:8848";
+    String NACOS_ADDRESS_DEV = "106.54.216.8:8848";
 
     String NAMESPACE_DEV = "58fa1211-4900-4562-b14f-e2d353818511";
     String NAMESPACE_TEST = "56921f44-c024-476d-b959-0d8bbcebfe89";
